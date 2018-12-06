@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Akronim">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/Profile-Edit-Form.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body id="bg" style="background-image:url(&quot;assets/img/guinea pig.jpg&quot;);background-position:center;background-size:cover;background-repeat:no-repeat;width:100%;height:100vh;">
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" id="topnav" style="background-color:rgba(255,255,255,0);">
+        <div class="container"><a class="navbar-brand" href="#" style="font-family:Akronim, cursive;color:rgb(107,152,239);font-size:50px;">PetMe</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#" style="color:rgb(255,255,255);">Our Service</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="color:rgb(255,255,255);">Become Owner</a></li>
+                </ul>
+                <form class="form-inline mr-auto" target="_self">
+                    <div class="form-group"><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" name="search" id="search-field"></div>
+                </form><a class="btn btn-light action-button" role="button" href="#">Log in</a></div>
+        </div>
+    </nav>
+    <div id="signup" name="" style="background-color:rgba(254,253,253,0.28);height:480px;"><small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>E-mail Address</strong></small><input type="email" style="height:20px;"><small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>Name</strong></small>
+        <input
+            type="text" style="height:20px;"><small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>Password</strong></small><input type="password" style="height:20px;"><small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>Confirm password</strong></small>
+            <input
+                type="password" style="height:20px;"><small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>Address &nbsp; &nbsp; &nbsp;</strong></small><input type="text" style="height:20px;"><small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>City &nbsp; &nbsp;&nbsp;</strong></small>
+                <input
+                    type="text" style="height:20px;"><small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>State &nbsp; &nbsp; &nbsp;</strong></small><select>
+	<option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+</select>				<small class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>Zip code &nbsp; &nbsp; &nbsp;</strong></small><input id="zipCode" type="text" name="postcode" style= width:173px;height:20px; script src="zipcode.js">
+                    <small
+                        class="form-text text-muted" style="font-family:Acme, sans-serif;"><strong>Telephone</strong></small><input type="tel" style="height:20px;" /><br/><button class="btn btn-primary" type="submit" style="margin-top:10px;">Submit</button></div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/zipcode.js"></script>
+</body>
+
+</html>
